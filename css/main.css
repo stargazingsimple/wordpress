@@ -162,6 +162,13 @@ img {
   text-transform: uppercase;
   color: #ffffff;
   text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero__button:focus,
+.hero__button:hover {
+  color: #4a4a4a;
 }
 
 .more-info {
@@ -385,6 +392,13 @@ img {
   text-transform: uppercase;
   color: #ffffff;
   text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gift__button:focus,
+.gift__button:hover {
+  color: #4a4a4a;
 }
 
 .first-webinar {
@@ -445,6 +459,14 @@ img {
   line-height: 1.4;
   text-align: center;
   color: #888888;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-block__link:hover,
+.footer-block__link:focus,
+.footer-block__tel-link:hover,
+.footer-block__tel-link:focus {
+  color: white;
 }
 
 .footer-block__link:nth-child(1)::after {

@@ -8,12 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/animate.css" />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <section class="hero">
+    <section class="hero wow slideInDown">
       <div class="container">
-        <div class="logo">
+        <div class="logo wow flipInX" data-wow-delay="1s">
           <a class="logo__link link" href="">
             <img class="logo__img" src="./images/svg/logo.svg" alt="Логотип" width="83px" height="71px" />
             <p class="logo__text">WordPress интенсив</p>
@@ -26,7 +27,7 @@
         <button type="button" class="hero__button">записаться на интенсив!</button>
         <div class="more-info">
           <p class="more-info__text">узнать больше об интенсиве</p>
-          <button class="more-info__button" type="button">
+          <button class="more-info__button wow pulse" data-wow-iteration="infinite" type="button">
             <svg class="more-info__icon" width="30px" height="19px">
               <use href="./images/icons/symbol-defs.svg#icon-down"></use>
             </svg>
@@ -39,22 +40,22 @@
         <h2 class="waiting__title">Что вас ждет в нашем интенсиве?</h2>
         <p class="waiting__text">2 бесплатных полноценных обучающих вебинара, где:</p>
         <ul class="waiting__list list">
-          <li class="waiting__item">
+          <li class="waiting__item wow fadeInUp">
             <img class="waiting__item-image" src="./images/svg/waiting_1.svg" alt="Ожидание №1" width="342px" height="201px" />
             <p class="waiting__item-text">Всего за два бесплатных вебинара мы научим вас, как создать свой сайт на WordPress.</p>
           </li>
-          <li class="waiting__item">
+          <li class="waiting__item wow fadeInUp">
             <img class="waiting__item-image" src="./images/svg/waiting_2.svg" alt="Ожидание №2" width="342px" height="201px" />
             <p class="waiting__item-text">Покажем, как правильно оптимизировать сайт и сделать его привлекательным для поисковых систем. Только свежая, профессиональная и актуальная информация!</p>
           </li>
-          <li class="waiting__item">
+          <li class="waiting__item wow fadeInUp">
             <img class="waiting__item-image" src="./images/svg/waiting_3.svg" alt="Ожидание №3" width="342px" height="201px" />
             <p class="waiting__item-text">Вы узнаете, что такое «хорошая индексация», «высокая посещаемость», «стабильный прирост посетителей», «ТОП по запросам» и, что намного важнее, как добиться всех этих показателей!</p>
           </li>
         </ul>
       </div>
     </section>
-    <section class="optimization">
+    <section class="optimization wow rollIn">
       <div class="container">
         <div class="optimization-block">
           <h2 class="optimization-block__title">Что такое оптимизация и зачем она нужна?</h2>
@@ -72,31 +73,31 @@
         <h2 class="finish__title">По окончании обучения Вы сможете!</h2>
         <ul class="finish__list list">
           <li class="finish__item">
-            <div class="finish__item-thumb">
+            <div class="finish__item-thumb wow rotateIn">
               <img class="finish__item-image" src="./images/svg/finish_icon_1.svg" alt="Комп'ютер" width="67px" height="48px" />
             </div>
             <p class="finish__item-text">Создать свой сайт или блог</p>
           </li>
           <li class="finish__item">
-            <div class="finish__item-thumb">
+            <div class="finish__item-thumb wow rotateIn">
               <img class="finish__item-image" src="./images/svg/finish_icon_2.svg" alt="Холст" width="56px" height="57px" />
             </div>
             <p class="finish__item-text">Правильно его оптимизировать</p>
           </li>
           <li class="finish__item">
-            <div class="finish__item-thumb">
+            <div class="finish__item-thumb wow rotateIn">
               <img class="finish__item-image" src="./images/svg/finish_icon_3.svg" alt="Статистика" width="60px" height="54px" />
             </div>
             <p class="finish__item-text">Обеспечить ему медлен-ный, но верный рост в ТОП</p>
           </li>
           <li class="finish__item">
-            <div class="finish__item-thumb">
+            <div class="finish__item-thumb wow rotateIn">
               <img class="finish__item-image" src="./images/svg/finish_icon_4.svg" alt="Посетители" width="65px" height="64px" />
             </div>
             <p class="finish__item-text">Достигнуть стабильного прироста посетителей</p>
           </li>
           <li class="finish__item">
-            <div class="finish__item-thumb">
+            <div class="finish__item-thumb wow rotateIn">
               <img class="finish__item-image" src="./images/svg/finish_icon_5.svg" alt="Прибыль" width="56px" height="63px" />
             </div>
             <p class="finish__item-text">Получать ощутимую прибыль</p>
@@ -107,12 +108,12 @@
     <section class="gift">
       <div class="container">
         <h2 class="gift__title visually-hidden">Бонусы и подарки</h2>
-        <img class="gift__image" src="./images/svg/gift.svg" alt="Подарок" width="154px" height="174px" />
+        <img class="gift__image wow shake" data-wow-iteration="infinite" src="./images/svg/gift.svg" alt="Подарок" width="154px" height="174px" />
         <p class="gift__text">Для всех участников интенсива предусмотрены бонусы и подарки. Нажимайте на кнопку ниже, принимайте участие в вебинарах и забирайте свой приз по окончании обучения!</p>
         <button type="button" class="gift__button">записаться на интенсив!</button>
       </div>
     </section>
-    <section class="first-webinar">
+    <section class="first-webinar wow slideInDown">
       <h2 class="first-webinar__title visually-hidden">Первый вебинар</h2>
       <img class="first-webinar__image" src="./images/svg/first.svg" alt="Первый вебинар" width="342px" height="201px" />
       <p class="first-webinar__subtitle">Первый вебинар состоится:</p>
@@ -130,5 +131,9 @@
         </div>
       </div>
     </footer>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
