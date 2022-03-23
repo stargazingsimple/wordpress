@@ -193,6 +193,12 @@ img {
 
 .more-info__icon {
   fill: #ffffff;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.more-info__icon:hover,
+.more-info__icon:focus {
+  fill: #2798b9;
 }
 
 .waiting {
